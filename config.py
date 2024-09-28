@@ -10,37 +10,37 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = ":-t4"
+TG_BOT_TOKEN = "6742876658:AAHwWA7CuhdNP1SvjuatHKk5UjQ8Pcpaaow"
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "21118585"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "ee05a7c74bd7dc0a8b2c6d0cbb0caf47")
 
 #Your db channel Id
 
 #Your db channel Id
-CHANNEL_ID = int(-1002180333729)
+CHANNEL_ID = int(-1002005291746)
 
 
 #OWNER ID
-OWNER_ID = 1251111009
+OWNER_ID = 7035291765
 
 
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8099")
 
 
-DB_URI = "mongodb+srv://tawelo9897:@cluster01.vsccp5l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01"
-DB_NAME = "Cluster0"
+DB_URI = "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.fiqxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = "wtflinksofficial"
 
 
 SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "publicearn.com")
-SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "")
+SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "1a8d5a6c86fa77f79e29a13efd2e854f94464274")
 
 
-SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "vipurl.in")
-SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "")
+SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "runurl.in")
+SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "5f6c8270cfcd8cbd55199f0a91adbe6696010034")
 
 
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 40000)) # Add time in seconds
