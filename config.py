@@ -49,8 +49,8 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/sarkari_theka")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002185910121"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002185910121"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3000"))
@@ -62,7 +62,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>👋 Hello {first}\n\nI am file 
 #START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "670513835 6979119858 6245748322 5614632454 849118795").split()):
+    for x in (os.environ.get("ADMINS", "7035291765").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -83,8 +83,8 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5614632454)
-ADMINS.append(5964198959)
+ADMINS.append(7035291765)
+ADMINS.append(7035291765)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
