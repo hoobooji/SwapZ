@@ -31,7 +31,7 @@ OWNER_ID = 7035291765
 PORT = os.environ.get("PORT", "8099")
 
 
-DB_URI = "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.fiqxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.ivtit.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "wtflinksofficial"
 
 
