@@ -3,6 +3,7 @@
 https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.21.zip 
 TgCrypto
 pyromod
+python3.10
 # --- For-Database ------------ #
 pymongo
 motor
@@ -17,4 +18,4 @@ shortzy
 aiohttp
 aiofiles
 asyncio
-python3.10
+
