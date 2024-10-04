@@ -39,7 +39,7 @@ SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "publicearn.com")
 SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "1a8d5a6c86fa77f79e29a13efd2e854f94464274")
 
 
-SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "runurl.in")
+SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "kingurl.in")
 SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "79859577d54131991ae220059f5bbdffd527c789")
 
 
