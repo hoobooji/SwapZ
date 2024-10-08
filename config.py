@@ -43,7 +43,7 @@ SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "kingurl.in")
 SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "79859577d54131991ae220059f5bbdffd527c789")
 
 
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 36000)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/openlinksx1/5")
 
