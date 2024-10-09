@@ -35,15 +35,15 @@ DB_URI = "mongodb+srv://tharkihoobooji:tharkihoobooji@cluster0.mjjlip2.mongodb.n
 DB_NAME = "tharkihoobooji"
 
 
-SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "publicearn.com")
-SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "1a8d5a6c86fa77f79e29a13efd2e854f94464274")
+SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "modijiurl.com")
+SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "e9370974dd0555150097fbb6990a8891524b4853")
 
 
-SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "kingurl.in")
-SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "79859577d54131991ae220059f5bbdffd527c789")
+SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "publicearn.com")
+SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "1a8d5a6c86fa77f79e29a13efd2e854f94464274")
 
 
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 10800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/openlinksx1/5")
 
