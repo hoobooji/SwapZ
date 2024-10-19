@@ -25,7 +25,7 @@ CHANNEL_ID = int(-1001970160500)
 
 
 #OWNER ID
-OWNER_ID = 7035291765
+OWNER_ID = 7823974841
 
 
 PORT = os.environ.get("PORT", "8099")
@@ -62,7 +62,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>👋 Hello {first}\n\nI am file 
 #START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7035291765 7087447552").split()):
+    for x in (os.environ.get("ADMINS", "6992533662 7823974841").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
