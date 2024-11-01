@@ -43,14 +43,14 @@ SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "publicearn.com")
 SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "1a8d5a6c86fa77f79e29a13efd2e854f94464274")
 
 
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 10800)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 40000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/openlinksx1/5")
 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002418059963"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002339107487"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002123448070"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3000"))
